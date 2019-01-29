@@ -1,0 +1,80 @@
+.todo-list .list-group-item {
+  padding: 0.25rem 0.75rem;
+  color: #008000;
+}
+.todo-list-item {
+  font-size: 1.25rem;
+}
+.todo-list-item button {
+  width: 35px;
+  margin: 3px;
+}
+.todo-list-item .todo-list-item-label {
+  margin-left: 1.25rem;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+.todo-list-item.done {
+  text-decoration: line-through;
+}
+.todo-list-item.important {
+  font-weight: bold;
+  color: #4682b4;
+}
+.app-header {
+  align-items: flex-end;
+}
+.app-header h1 {
+  flex-grow: 1;
+}
+.app-header h2 {
+  font-size: 1.2rem;
+  color: #808080;
+}
+.item-add-form {
+  margin-top: 10px;
+}
+.item-add-form input {
+  margin-right: 3px;
+}
+.login {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.3s;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+.login .wrapper {
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+body {
+  position: relative;
+}
+body .App {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+body .App .todo-app {
+  margin: 2rem auto 0 auto;
+  min-width: 400px;
+}
+body .App .todo-app .top-panel {
+  margin: 1rem 0;
+}
